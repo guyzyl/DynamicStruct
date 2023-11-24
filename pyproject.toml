@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dynamicstruct"
+version = "0.0.0"
+description = ""
+authors = ["Guy Zylberberg <guyzyl@gmail.com>"]
+license = "apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+mypy = "^1.7.1"
+ruff = "^0.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
